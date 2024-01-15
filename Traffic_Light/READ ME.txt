@@ -1,0 +1,31 @@
+Inspiration
+I'm putting together this traffic light with Arduino, and it's not just a cool DIY thing – it's like this whole learning experience in programming and electronics. 
+Plus, it's giving me a deep dive into how traffic management systems work, and I get to add my own creative touches to the mix. It's a pretty neat project overall!
+
+What it does
+The traffic light built with Arduino simulates real-world traffic signals, enabling programmed control over the sequencing of lights 
+and serving as an educational tool for understanding traffic management principles
+
+How I built it
+
+Jumper wires 
+LED: Red
+LED: Green
+LED: Yellow
+Breadbaord
+Arduino DUE
+
+Challenges I ran into
+- Unfortunately, did not have a yellow LED,but instead I substituted it with a green LED
+- Arduino DUE was drawing power from my laptop instead of the 9V battery
+- Not enough materials (exm: If I had a button, I could have implemented an if-else statement for the pedestrian feature)
+
+What I learned
+- pinMode function is used to configure a specific pin on the Arduino board as either an input or an output
+- the digitalWrite function is used to set the state of a digital output pin
+- HIGH (sets the led on) and LOW (sets the led off)
+
+Built With
+
+Arduino software (C program)
+
